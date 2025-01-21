@@ -1,6 +1,8 @@
-import { useState } from 'react'
-import ContactList from './ContactList'
+import { useState, useEffect } from 'react'
+import './ContactList'
 import './App.css'
+import ContactList from './ContactList'
+import ContactForm from './ContactForm'
 
 function App() {
   const [contacts, setContacts] = useState([])
